@@ -1,1 +1,2 @@
-{"title":"readme","description":"generates readme files","installation":"it already is installed","guidelines":"none","instructions":"to create readme files for repositories","contact":"toddd"}
+# README Generator
+  
