@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const generateMarkdown = require('./utils/generateMarkdown');
+const generateReadMe = require('./utils/generateREADME');
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -50,18 +51,23 @@ function init() {
     // The 'questions' array is then called and prompts the questions into the terminal awaiting user input
     .prompt(questions)
 
-  // The users input data is then passed into 'response' and converted into string format to be put into a newly generated readme.md file
-  .then((response) => 
-    fs.writeFile('readme.md', JSON.stringify(response), (error) => 
+    // The users responses are then passed into 'response'
+    .then((response) => {
 
-      // The Arrow function then logs a string to the terminal if successful, if not then it will display an error
-      error ? console.error(error) : console.log('README File Generated!')
+      // Takes user inputs and calls 'generateReadMe' to format data and returns it to 'fileText'
+      const fileText = generateReadMe(response);
+
+      // Writes new readme file with 'fileText' data
+      fs.writeFile('README.md', fileText, (error) => 
+
+      // Logs a string to the terminal if successful, if not then it will display an error
+      error ? console.error(error) : console.log(`Created README File for ${response.title}!`),
     )
-  );
+  });
 }
 
 // Function call to initialize app
-// The computer checks to see if the users 2nd argument is equal to run to initialize the generator
+// The computer checks to see if the users 2nd argument is truthy to run to initialize the generator
 if (run === 'run') {
   init();
 
