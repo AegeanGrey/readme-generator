@@ -11,6 +11,11 @@ const run = process.argv[2];
 const questions = [
   {
     type: 'input',
+    name: 'username',
+    message: 'What is your GitHub Username?',
+  },
+  {
+    type: 'input',
     name: 'title',
     message: 'What is the title of your project?',
   },
@@ -36,7 +41,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contact',
+    name: 'email',
     message: 'What is the best email to contact you regarding further questions?',
   },
 ];
