@@ -5,12 +5,12 @@
 
 
   ## Requirements
-  Node.js, Git, and a code editor (VS Code for example)
+  Node.js, Git, and a Code Editor (VS Code for example)
   
 
 
   ## Installation
-  Via SSH Key
+  On the Github page you would want to click on the green 'code' button and copy the SSH Repository link to clone in Git, then in the terminal of the 'index.js' you would type in 'npm i' to install the associated packages/modules for the README Generator to be ready to go.
   
 
 
@@ -20,7 +20,7 @@
 
 
   ## Credits
-  UofU, Todd D. and Finn
+  Starter code was provided by the Univeristy of Utah, improved/modified by Todd D. and insight was provided by Finn
   
 
 
