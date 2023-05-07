@@ -31,20 +31,31 @@ code .
   
 We will then need to install the required packages/modules for the README Generator to work:
 
-1.) In the Code Editor, right click on the 'index.js' file and select 'Open in Integrated Terminal'
+4.) In the Code Editor, right click on the 'index.js' file and select 'Open in Integrated Terminal'
 
-2.) In the Terminal, type in the following to install the required packages:
+5.) In the Terminal, type in the following to install the required packages:
 
 npm i
-
-3.) Type the following into the Terminal to run the application:
-
-node index.js run
   
 
 
   ## Usage
-  To run the program, you must type in 'node index.js run' into the terminal and answer each prompt to the best of your ability
+1.) Type the following into the Terminal to run the application:
+
+node index.js run
+
+2.) You should then see a series of individual prompts display asking the following questions:
+
+* What is your Github Username?
+* What is the title of your project?
+* How owuld you describe this project?
+* What are the prerequisites the user should have beforehand?
+* How do you install this project?
+* How do you use this project?
+* Who contributed in creating this project?
+* What is the best email to contact you regarding further questions?
+
+3.) After answering all the prompts, the README file is then generated! I would recommend double checking punctuation and modify the generated README file to your liking! 
   
 
 
