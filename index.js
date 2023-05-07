@@ -26,18 +26,23 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'requirements',
+    message: 'What are the prerequisites the user should have beforehand?',
+  },
+  {
+    type: 'input',
     name: 'installation',
     message: 'How do you install this project?',
   },
   {
     type: 'input',
-    name: 'guidelines',
-    message: 'What are the guidlines for this project?',
+    name: 'usage',
+    message: 'How do you use this project?',
   },
   {
     type: 'input',
-    name: 'instructions',
-    message: 'How do you use this project?',
+    name: 'credit',
+    message: 'Who contributed in creating this project?',
   },
   {
     type: 'input',
