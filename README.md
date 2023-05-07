@@ -4,6 +4,7 @@
   This application is able to create the following based on user-input:
   * Project Title
   * Sectioned content such as Description, Requirements, Installation, Usage, Credits and Questions
+  * Creates a link to your GitHub webpage
 
 
 
