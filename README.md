@@ -1,11 +1,13 @@
 # README Generator
   ## Description
   README Generator creates a professional README file for anyone looking to mitigate time spent on creating one from scratch!
-  
+  This application is able to create the following based on user-input:
+  * Project Title
+  * Sectioned content such as Description, Requirements, Installation, Usage, Credits and Questions
 
 
   ## Requirements
-  Node.js, Git, and a Code Editor (VS Code for example)
+  Github Profile/Username, Node.js, Git, and a Code Editor (VS Code for example)
   
 
 
