@@ -12,7 +12,33 @@
 
 
   ## Installation
-  On the Github page you would want to click on the green 'code' button and copy the SSH Repository link to clone in Git, then in the terminal of the 'index.js' you would type in 'npm i' to install the associated packages/modules for the README Generator to be ready to go.
+  To pull the environment onto your side you can do the following:
+
+1.) Copy the SSH or HTTPS Key for the Repository by selecting the green "Code" button
+
+2.) Go to Git or GitBash to clone the repo by entering the following into the command terminal:
+
+git clone git@github.com:profile-name/repo-name.git
+
+or in this case for this particular repo:
+
+git@github.com:AegeanGrey/readme-generator.git
+
+3.) navigate to the file path and type the following to open the code:
+
+code .
+  
+We will then need to install the required packages/modules for the README Generator to work:
+
+1.) In the Code Editor, right click on the 'index.js' file and select 'Open in Integrated Terminal'
+
+2.) In the Terminal, type in the following to install the required packages:
+
+npm i
+
+3.) Type the following into the Terminal to run the application:
+
+node index.js run
   
 
 
