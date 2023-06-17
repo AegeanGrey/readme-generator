@@ -49,7 +49,7 @@ node index.js run
 
 * What is your Github Username?
 * What is the title of your project?
-* How owuld you describe this project?
+* How would you describe this project?
 * What are the prerequisites the user should have beforehand?
 * How do you install this project?
 * How do you use this project?
